@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  go:
+    container_name: 'golang-study'
+    build: .
+    tty: true
+    volumes:
+      - ./src:/go/src/app
