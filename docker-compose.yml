@@ -1,6 +1,6 @@
 version: "3"
 services: 
-  go:
+  app:
     container_name: 'golang-study'
     build: .
     tty: true
